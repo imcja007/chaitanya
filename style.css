@@ -1,0 +1,100 @@
+.box{
+    background-color:yellow;
+    height: 600px;
+    width: 500px;
+    margin-left: 1em;
+    padding-bottom: 0;
+    
+}
+h1{
+    text-align: center;
+}
+.innerbox{
+    display: flex;
+}
+.main{   
+    display: flex;
+    /* margin-right: 1em; */
+}
+.sbox{
+    height:265px;
+    background-color: aqua;
+}
+#one1{
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height:250px;
+    width: 230px;
+    background-color: aqua;
+}
+#one3{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    height:250px;
+    width: 230px;
+    background-color: aqua;
+}
+#one2{
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 0;
+    padding: 1em;
+    margin-top: 1em;
+}
+.two{
+    height: 565px;
+    width: 207px;
+    margin: 1em;
+    text-align: center;
+    background-color: aqua;
+}
+
+#three1{
+    background-color: aqua;
+    margin: 1em;
+    height: 276px;
+    width: 234px;
+}
+#three2{
+    /* margin: 1em; */
+    margin:  1em 1em 1em 0;
+    /* background-color: aqua; */
+    background-image: url(1234.jpg);
+    height: 276px;
+    width: 234px; 
+    
+}
+#three3{
+    margin: 0 1em 1em 1em;
+    background-image: url(123.jpg);
+    background-color: aqua;
+    height: 276px;
+    width: 234px;
+}
+#three4{
+    margin: 0 1em 1em 0;
+    background-color: aqua;
+    height: 276px;
+    width: 234px;
+}
+@media screen and (max-width: 768px) {
+    .box {
+        margin-bottom: 1em;
+    }
+    .main {
+        display: flex;
+        flex-direction: column; 
+    }
+    #box2{
+        display: flex;
+        flex-direction: column;    
+    }
+    .two{
+        width: 93%;
+        height: 270px;
+        
+    }
+    
+}
